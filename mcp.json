@@ -1,0 +1,6 @@
+{
+  "servers": [
+    "https://github.com/microsoft/playwright-mcp",
+    "https://github.com/github/github-mcp-server"
+  ]
+}
