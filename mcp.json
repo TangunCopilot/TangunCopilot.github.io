@@ -3,12 +3,22 @@
     {
       "id": "github",
       "name": "GitHub MCP Server",
-      "description": "GitHub MCP Server",
+      "description": "GitHub official MCP server for repository management",
       "manifest_url": "https://api.githubcopilot.com/mcp/manifest",
+      "categories": ["github", "code"],
+      "version": "1.0.0",
+      "latest": true
+    },
+    {
+      "id": "postman",
+      "name": "Postman MCP Server",
+      "description": "Postman API testing and collection management server",
+      "manifest_url": "https://postman.com/mcp/manifest",
+      "categories": ["api", "testing", "postman"],
       "version": "1.0.0",
       "latest": true
     }
   ],
-  "total_count": 1,
-  "updated_at": "2024-09-18T16:30:00Z"
+  "total_count": 2,
+  "updated_at": "2024-09-18T17:00:00Z"
 }
