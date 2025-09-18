@@ -1,9 +1,15 @@
 {
-  "servers": {
-    "github-mcp": {
-    "type": "http",
-    "url": "https://api.githubcopilot.com/mcp"
+  "servers": [
+    {
+      "id": "github-mcp",
+      "name": "GitHub MCP Server",
+      "description": "GitHub official MCP server - ALLOWED for testing",
+      "manifest_url": "https://api.githubcopilot.com/mcp/manifest",
+      "categories": ["github", "approved"],
+      "version": "1.0.0",
+      "latest": true
     }
-
-  }
+  ],
+  "total_count": 1,
+  "updated_at": "2024-09-18T12:00:00Z"
 }
