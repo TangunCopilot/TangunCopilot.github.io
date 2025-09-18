@@ -3,22 +3,34 @@
     {
       "id": "github",
       "name": "GitHub MCP Server",
-      "description": "GitHub official MCP server for repository management",
-      "manifest_url": "https://api.githubcopilot.com/mcp/manifest",
-      "categories": ["github", "code"],
-      "version": "1.0.0",
+      "description": "GitHub 리포지토리/이슈/PR/Actions 등 개발 작업을 위한 도구 제공",
+      "manifest_url": "https://api.githubcopilot.com/mcp/",
+      "categories": ["code", "devops", "github"],
+      "version": "remote",
+      "release_date": "2025-01-01T00:00:00Z",
       "latest": true
     },
     {
       "id": "postman",
       "name": "Postman MCP Server",
-      "description": "Postman API testing and collection management server",
-      "manifest_url": "https://postman.com/mcp/manifest",
+      "description": "Postman 워크스페이스/컬렉션/러너 등과 상호작용",
+      "manifest_url": "https://mcp.postman.com/mcp",
       "categories": ["api", "testing", "postman"],
-      "version": "1.0.0",
+      "version": "remote-full",
+      "release_date": "2025-01-01T00:00:00Z",
+      "latest": true
+    },
+    {
+      "id": "playwright",
+      "name": "Playwright MCP Server",
+      "description": "브라우저 자동화(접근성 트리 기반) 도구 제공",
+      "manifest_url": "http://localhost:8931/mcp",
+      "categories": ["browser-automation", "testing", "playwright"],
+      "version": "local-http",
+      "release_date": "2025-01-01T00:00:00Z",
       "latest": true
     }
   ],
-  "total_count": 2,
-  "updated_at": "2024-09-18T17:00:00Z"
+  "total_count": 3,
+  "updated_at": "2025-09-18T00:00:00Z"
 }
