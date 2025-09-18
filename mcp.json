@@ -3,12 +3,14 @@
     {
       "id": "github",
       "name": "GitHub MCP Server",
+      "description": github mcp",
       "manifest_url": "https://api.githubcopilot.com/mcp/",
       "latest": true
     },
     {
       "id": "postman",
       "name": "Postman MCP Server",
+      "description": postman mcp",
       "manifest_url": "https://mcp.postman.com/mcp",
       "latest": true
     },
@@ -18,5 +20,7 @@
       "manifest_url": "http://localhost:8931/mcp",
       "latest": true
     }
-  ]
+  ],
+  "total_count": 2,
+  "updated_at": "2025-09-09T12:00:00Z"
 }
