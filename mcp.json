@@ -1,36 +1,9 @@
 {
-    "servers": {
-        "postmanlabs/postman-mcp-server": {
-            "type": "stdio",
-            "command": "npx",
-            "args": [
-                "@postman/postman-mcp-server@latest"
-            ],
-            "env": {
-                "POSTMAN_API_KEY": "${input:api_key}"
-            },
-            "gallery": "https://api.mcp.github.com/v0/servers/40516270-789a-bcde-f012-345678901234",
-            "version": "1.0.0"
-        },
-        "github-mcp": {
-            "type": "http",
-            "url": "https://api.githubcopilot.com/mcp"
-        },
-        "playwright" : {
-            "type": "stdio",
-            "command": "npx",
-            "args": [
-                "@playwright/mcp@latest",
-            ]
-        }
-    },
-    "inputs": [
-        {
-            "id": "api_key",
-            "type": "promptString",
-            "description": "Your API key for the service",
-            "password": true
-        }
-    ]
+  "servers": {
+    "github-mcp": {
+    "type": "http",
+    "url": "https://api.githubcopilot.com/mcp"
+    }
 
+  }
 }
