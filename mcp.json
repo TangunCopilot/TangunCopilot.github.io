@@ -1,16 +1,8 @@
 {
-    "servers": {
-        "github-mcp": {
-            "type": "http",
-            "url": "https://api.githubcopilot.com/mcp"
-        }
-    },
-    "inputs": [
-        {
-            "id": "api_key",
-            "type": "promptString",
-            "description": "Your API key for the service",
-            "password": true
-        }
-    ]
+    "servers": {
+        "github-mcp": {
+            "type": "http",
+            "url": "https://api.githubcopilot.com/mcp"
+        }
+    }
 }
